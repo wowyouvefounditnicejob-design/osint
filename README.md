@@ -1,7 +1,7 @@
-# Rock 'N' Roll 
+# OSINT Project Launch V2
 
 ## Overview
-The Rock 'N' Roll Python script is a tool designed to perform various cybersecurity-related searches. It leverages external APIs to query databases and retrieve information related to email addresses, compromised credentials, and leaked passwords. The script incorporates searches from HudsonRock (Cavalier API), COMB (Combination Of Many Breaches), and IntelX (Phonebook.cz).
+The OSINT Project Launch V2 is a comprehensive Open Source Intelligence (OSINT) tool designed to perform various cybersecurity and intelligence-related searches. It leverages multiple external APIs to query databases and retrieve information related to email addresses, compromised credentials, leaked passwords, domain intelligence, and geolocation data. The tool integrates searches from COMB (Combination Of Many Breaches), IntelX (Phonebook.cz), BreachDirectory, DeHashed, Breach.VIP, OSINT.Industries, and IPLocation services.
 
 ## Features
 1. **HudsonRock Search:**
@@ -58,32 +58,32 @@ Phonebook lists all domains, email addresses, or URLs for the given input domain
 2. Navigate to the directory containing the script.
 3. Run the script using the command:
    ```
-   python rockNroll.py [arguments]
+   python osintprojectlaunchv2.py [arguments]
    ```
 
 ### Examples
 - Run HudsonRock search:
   ```
-  python rockNroll.py -f emails.txt --houtput HudsonRock-results.xlsx --verbose
+  python osintprojectlaunchv2.py -f emails.txt --verbose
   ```
 
 - Run IntelX domain search:
   ```
-  python rockNroll.py -l example.com -k your_intelx_api_key --ioutput
+  python osintprojectlaunchv2.py -l example.com -k your_intelx_api_key --ioutput
   ```
 
 - Run COMB search:
   ```
-  python rockNroll.py -f emails.txt --coutput COMB-results.xlsx
+  python osintprojectlaunchv2.py -f emails.txt --coutput COMB-results.csv
   ```
 
 ### Screenshots
 
-![Screenshot 2024-06-19 at 21 32 57_censored](https://github.com/yasinyilmaz/rockNroll/assets/37842751/3460352d-fb49-4f19-b9b0-4d76b63eccc9)
+![OSINT Project Launch V2](https://github.com/yasinyilmaz/osint/assets/37842751/3460352d-fb49-4f19-b9b0-4d76b63eccc9)
 
-![Screenshot 2024-06-19 at 21 33 15_censored](https://github.com/yasinyilmaz/rockNroll/assets/37842751/1fef66f3-ce8f-4771-83b9-e9d977c3c970)
+![OSINT Search Results](https://github.com/yasinyilmaz/osint/assets/37842751/1fef66f3-ce8f-4771-83b9-e9d977c3c970)
 
-![Screenshot 2024-06-19 at 21 39 33_censored(1)](https://github.com/yasinyilmaz/rockNroll/assets/37842751/3dbc4928-c535-47b7-816c-0b92f645dbf0)
+![Geolocation and Breach Data](https://github.com/yasinyilmaz/osint/assets/37842751/3dbc4928-c535-47b7-816c-0b92f645dbf0)
 
 
 
